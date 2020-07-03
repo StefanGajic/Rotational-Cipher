@@ -8,7 +8,6 @@ class RotationalCipher
       raise ArgumentError.new("number is above 26")
     else
       @rot_number = rot_number
-      @valid_number = true
     end
   end
 
